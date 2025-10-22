@@ -40,7 +40,7 @@ def organize_files(base_dir, file_id, mode="to_subfolder"):
         except Exception as e:
             print(f"Error during move: {e}")
 
-# STEP 3: run MFA (option: "--disable_speaker_adaptation", "--single_speaker", "--clean")
+# STEP 3: run MFA (option: "--single_speaker", "--clean")
 def run_mfa(staging_dir, dict_path, model_path, output_dir):
     print("Running MFA alignment on all files...")
     subprocess.run([
