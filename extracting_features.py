@@ -31,7 +31,7 @@ def add_condition_tier(tg, list_num, condition_df):
     return tg
 
 
-# STEP 2: Extract numeral data from TextGrid files
+# STEP 2: Extract numerical data from TextGrid files
 # Extract response latency (RL)
 def extract_rl(tg, participant_id, list_num):
     results = []
